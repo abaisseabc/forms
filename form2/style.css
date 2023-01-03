@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+form {
+    width: 288px;
+    margin: 0 auto;
+    height: 530px;
+    background: #FFFDFD;
+    border: 1px solid #000000;
+    border-radius: 26px;
+}
+
+form .form-header {
+    margin-top: 12px;
+}
+
+.form-header {
+    width: 193px;
+    margin: 0 auto;
+    height: 58px;
+}
+
+.form-header h1 {
+    margin-top: 8px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 26px;
+    color: #000000;
+}
+
+.form-input {
+    margin-top: 116px;
+    margin-left: 59px;
+}
+
+.form-input input {
+    font-family: 'Inter';
+}
+
+.form-input__name, .form-input__pass {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.form-input__pass {
+    margin-top: 34px;
+}
+
+.form-input__input, .form-input__field {
+    width: 170px;
+    height: 29px;
+    background: #FFFDFD;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.form-input__field {
+    margin-top: 24px;
+}
+
+.form-btn {
+    margin-top: 26px;
+    text-align: center;
+}
+
+.form-btn__circle {
+    width: 109px;
+    height: 27px;
+    background: #FFFCFC;
+    border: 1px solid #000000;
+    border-radius: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.form-btn__underline{
+    background: #FFFFFF;
+    margin-top: 19px;
+    font-family: 'Jomolhari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 37px;
+    text-decoration-line: underline;
+    
+    color: #000000;
+}

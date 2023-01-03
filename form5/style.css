@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Jomolhari';
+    src: url(../fonts/Jomolhari-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+.form {
+    font-family: 'Jomolhari';
+    text-align: center;
+    width: 288px;
+    height: 530px;
+    margin: 0 auto;
+    background: #FFFDFD;
+    border: 1px solid #000000;
+    border-radius: 26px;
+    color: #000000;
+}
+
+.form-header {
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.form-paragraph {
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 37px;
+}
+
+.form-source {
+    text-align: left;
+    padding-left: 59px;
+    padding-top: 56px;
+}
+
+.form-source p {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.form-source select {
+    background: #FFFDFD;
+    width: 170px;
+    height: 29px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 37px;
+    text-decoration-line: underline;
+}
+
+.form-target {
+    text-align: left;
+    padding-left: 59px;
+    padding-top: 33px;
+}
+
+.form-target p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.form-target input {
+    width: 170px;
+    height: 29px;
+    background: #FFFDFD;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.form-amount {
+    text-align: left;
+    padding-left: 59px;
+    padding-top: 20px;
+}
+
+.form-amount input {
+    width: 93px;
+    height: 29px;
+    background: #FFFDFD;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.form-amount__input {
+    display: flex;
+}
+
+.form-amount__input p {
+    padding-left: 14px;
+    width: 13px;
+    height: 37px;
+    font-size: 20px;
+    line-height: 37px;
+}
+
+.form-send {
+    padding-top: 56px;
+}
+
+.form-send button {
+    width: 109px;
+    height: 27px;
+    background: #FFFCFC;
+    border: 1px solid #000000;
+    border-radius: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
